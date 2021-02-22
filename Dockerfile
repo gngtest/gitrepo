@@ -8,4 +8,4 @@ VOLUME /git
 WORKDIR /git
 
 ENTRYPOINT ["git"]
-CMD ["--help"]
+CMD ["clone", "http://github.com/gngtest/DO180-apps.git", "/git"]
